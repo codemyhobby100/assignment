@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Theame Form</title>
+    <link rel="stylesheet" href="dark-form.css">
+</head>
+<body>
+    <div class="form">
+        <h2>Sign Up</h2>
+        <div class="input">
+            <div class="inputBox">
+                <label>Username</label>
+                <input type="text" required name="" placeholder="Enter Username">
+            </div>
+            <div class="inputBox">
+                <label>Email</label>
+                <input type="email" required name="" placeholder="Email">
+            </div>
+            <div class="inputBox">
+                <label>Password</label>
+                <input type="password" required name="" placeholder="*********">
+            </div>
+            <div class="inputBox">
+                <label>Select Country</label>
+                <input list="country" >
+                <datalist id="country">
+                    <option value="Afganistan">Afganistan</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Austria">Austria</option>
+                    <option value="Brazil">Brazil</option>
+                    <option value="Bangladash">Bangladash</option>
+                    <option value="Canada">Canada</option>
+                    <option value="Cameroon">Cameroon</option>
+                    <option value="France">France</option>
+                    <option value="Spain">Spain</option>
+                    <option value="Italy">Italy</option>
+                    <option value="United Kingdom">United Kingdom</option>
+                    <option value="United States">United States</option>
+                    <option value="France">France</option>
+                    <option value="Kenya">Kenya</option>
+                    <option value="India">India</option>
+                    <option value="Pakistan">Pakistan</option>
+                </datalist>
+            </div>
+            <div class="inputBox">
+                <label>Date Of Appointment</label>
+                <input type="date" required>
+            </div>
+            <div class="inputBox">
+                <label>Month</label>
+                <input type="month" required>
+            </div>
+            <div class="inputBox">
+                <label>Week</label>
+                <input type="week" required>
+            </div>
+            <div class="inputBox">
+                <label>Time Of Appointment</label>
+                <input type="time" required>
+            </div>
+            <br>
+            <div class="range">
+               <label class="label-range">Qualification</label>
+                <input type="range" required min="1" value="8" step="2" max="10">
+            </div>
+
+            <div class="inputBox">
+                <label>Submit Portfolio</label>
+                <input type="url" required >
+            </div>
+            <br>
+            <div class="color">
+               <label class="label-color">Select Color Code</label>
+                <input type="color" > 
+            </div>
+            <br>
+            <div>
+                <label class="label-color">Upload Photo</label>
+                <input style="color: #555;" type="file" name="file">
+            </div>
+            
+            <div class="inputBox">
+                <input type="submit" value="Sign Up" >
+            </div>
+            
+        </div>
+        <p class="sign-in">Already Have An Account? <a href="#"> Sign In</a></p>
+    </div>
+</body>
+</html>
